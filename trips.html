@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theravel</title>
+    
+    <style>
+    
+    body{
+      position: relative;
+    }
+    #hideMe {
+  animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+.bg{
+
+  display: flex;
+   width: 400px;
+    height: 400px; 
+    background-color:#D3959B;
+    align-items: center;
+    align-content: center;
+    top: 50%;
+    left:50%;
+    margin: auto;
+    border-radius: 20%;
+}
+.sm{
+   width: 300px; 
+  height: 300px; 
+  margin: auto;
+  background-color: #bfe6ba;
+  text-align: center;
+  border-radius: 20%;
+  
+}
+
+
+.slogon{
+            color: rgba(167, 107, 107, 0.9);
+            margin-top:60px;
+        }
+
+.trips{
+  color: rgba(167, 107, 107, 0.9);
+}
+        
+img{
+  border-radius: 20%;
+}
+.margin{
+  margin-bottom: 60px;
+}
+    </style>
+
+
+
+</head>
+
+<body >
+  
+    <div  id="hideMe" class="bg" >
+       <div class="sm">
+        <h1 class="slogon">Theravel </h1>
+        <h3 class="slogon">The trip your mind needs</h3>
+       </div>
+    </div>
+ <h3 class="trips" style="background-color: #bfe6ba; width: 300px; border-radius: 10%;">
+  Time to give yourself a chance to heal
+ </h3>
+ <div class="sm margin" style="float: left; text-align: center;  padding-top: 1px;" >
+  <h3   class="trips">
+    let Maldives Heal you 
+  </h3>
+  <img  src="./image/maldives.jpeg" alt="maldives">
+ </div>
+ <div class="sm margin" style="float: right; text-align: center;  padding-top: 1px;" >
+  <h3   class="trips">
+    let Bali Heal you 
+  </h3>
+  <img  src="./image/bali.jpeg" alt="bali">
+ </div> 
+ <div class="sm margin" style="float: left; text-align: center;  padding-top: 1px;" >
+  <h3   class="trips">
+    let Greece Heal you 
+  </h3>
+  <img  src="./image/greece.jpeg" alt="greece">
+ </div>
+ <div class="sm margin" style="float: right; text-align: center;  padding-top: 1px;" >
+  <h3   class="trips">
+    let Italy Heal you 
+  </h3>
+  <img  src="./image/italy.jpeg" alt="italy">
+ </div>
+</body>
+</html>
